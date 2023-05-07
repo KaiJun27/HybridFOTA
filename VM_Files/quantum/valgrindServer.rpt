@@ -1,0 +1,319 @@
+==2715== Memcheck, a memory error detector
+==2715== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2715== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==2715== Command: ./server
+==2715== Parent PID: 1942
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4BD91DD: pqcrystals_dilithium5_avx2_poly_challenge (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4BDE185: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Use of uninitialised value of size 8
+==2715==    at 0x4BD920B: pqcrystals_dilithium5_avx2_poly_challenge (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4BDE185: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4BDE1E3: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4BDE2B0: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4BDE2EB: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Use of uninitialised value of size 8
+==2715==    at 0x4BDD597: pqcrystals_dilithium5_avx2_make_hint_avx (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4BDE314: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Use of uninitialised value of size 8
+==2715==    at 0x4BDD5AA: pqcrystals_dilithium5_avx2_make_hint_avx (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4BDE314: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4BDE327: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x485288A: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x485290B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4852973: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x485299B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x48529B3: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x48529C4: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Use of uninitialised value of size 8
+==2715==    at 0x4852A10: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Use of uninitialised value of size 8
+==2715==    at 0x4852A13: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4852A1D: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x485289C: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x48528D6: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x48529BE: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Use of uninitialised value of size 8
+==2715==    at 0x48529E3: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x48529EF: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4852A01: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x4BDE33B: pqcrystals_dilithium5_avx2_signature (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E01: OQS_SIG_sign (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x109758: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4BD91DD: pqcrystals_dilithium5_avx2_poly_challenge (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4BDE800: pqcrystals_dilithium5_avx2_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E41: OQS_SIG_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x1097EA: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Use of uninitialised value of size 8
+==2715==    at 0x4BD920B: pqcrystals_dilithium5_avx2_poly_challenge (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4BDE800: pqcrystals_dilithium5_avx2_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E41: OQS_SIG_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x1097EA: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4BDE9D2: pqcrystals_dilithium5_avx2_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E41: OQS_SIG_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x1097EA: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4BDE9D8: pqcrystals_dilithium5_avx2_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E41: OQS_SIG_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x1097EA: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4BDEA1C: pqcrystals_dilithium5_avx2_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E41: OQS_SIG_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x1097EA: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Use of uninitialised value of size 8
+==2715==    at 0x4BDE9E7: pqcrystals_dilithium5_avx2_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E41: OQS_SIG_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x1097EA: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Use of uninitialised value of size 8
+==2715==    at 0x4BDE9F0: pqcrystals_dilithium5_avx2_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E41: OQS_SIG_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x1097EA: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Use of uninitialised value of size 8
+==2715==    at 0x4BDEA06: pqcrystals_dilithium5_avx2_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E41: OQS_SIG_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x1097EA: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4BDE8BB: pqcrystals_dilithium5_avx2_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E41: OQS_SIG_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x1097EA: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Use of uninitialised value of size 8
+==2715==    at 0x4BDE8E0: pqcrystals_dilithium5_avx2_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E41: OQS_SIG_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x1097EA: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4BDE8EF: pqcrystals_dilithium5_avx2_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E41: OQS_SIG_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x1097EA: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Use of uninitialised value of size 8
+==2715==    at 0x4BDE8F5: pqcrystals_dilithium5_avx2_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E41: OQS_SIG_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x1097EA: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4BDEBCA: pqcrystals_dilithium5_avx2_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x4E67E41: OQS_SIG_verify (in /usr/local/lib/liboqs.so.0.7.3-dev)
+==2715==    by 0x1097EA: signPacket (in /home/ryder/fyp/quantum/server)
+==2715==    by 0x109AC9: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Syscall param write(buf) points to uninitialised byte(s)
+==2715==    at 0x5096A37: write (write.c:26)
+==2715==    by 0x500CF6C: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1180)
+==2715==    by 0x500EA60: new_do_write (fileops.c:448)
+==2715==    by 0x500EA60: _IO_new_do_write (fileops.c:425)
+==2715==    by 0x500EA60: _IO_do_write@@GLIBC_2.2.5 (fileops.c:422)
+==2715==    by 0x500D754: _IO_new_file_xsputn (fileops.c:1243)
+==2715==    by 0x500D754: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==2715==    by 0x5002056: fwrite (iofwrite.c:39)
+==2715==    by 0x109C54: main (in /home/ryder/fyp/quantum/server)
+==2715==  Address 0x582c9f8 is 2,024 bytes inside a block of size 4,096 alloc'd
+==2715==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x5000C23: _IO_file_doallocate (filedoalloc.c:101)
+==2715==    by 0x500FD5F: _IO_doallocbuf (genops.c:347)
+==2715==    by 0x500EFDF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==2715==    by 0x500D754: _IO_new_file_xsputn (fileops.c:1243)
+==2715==    by 0x500D754: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==2715==    by 0x5002056: fwrite (iofwrite.c:39)
+==2715==    by 0x109B6A: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4FF85E3: __vfprintf_internal (vfprintf-internal.c:1516)
+==2715==    by 0x4FE281E: printf (printf.c:33)
+==2715==    by 0x109C98: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Use of uninitialised value of size 8
+==2715==    at 0x4FDC2DA: _itoa_word (_itoa.c:178)
+==2715==    by 0x4FF7B3D: __vfprintf_internal (vfprintf-internal.c:1516)
+==2715==    by 0x4FE281E: printf (printf.c:33)
+==2715==    by 0x109C98: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4FDC2EC: _itoa_word (_itoa.c:178)
+==2715==    by 0x4FF7B3D: __vfprintf_internal (vfprintf-internal.c:1516)
+==2715==    by 0x4FE281E: printf (printf.c:33)
+==2715==    by 0x109C98: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4FF8643: __vfprintf_internal (vfprintf-internal.c:1516)
+==2715==    by 0x4FE281E: printf (printf.c:33)
+==2715==    by 0x109C98: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Conditional jump or move depends on uninitialised value(s)
+==2715==    at 0x4FF7C85: __vfprintf_internal (vfprintf-internal.c:1516)
+==2715==    by 0x4FE281E: printf (printf.c:33)
+==2715==    by 0x109C98: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== Syscall param write(buf) points to uninitialised byte(s)
+==2715==    at 0x5096A37: write (write.c:26)
+==2715==    by 0x500CF6C: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1180)
+==2715==    by 0x500EA60: new_do_write (fileops.c:448)
+==2715==    by 0x500EA60: _IO_new_do_write (fileops.c:425)
+==2715==    by 0x500EA60: _IO_do_write@@GLIBC_2.2.5 (fileops.c:422)
+==2715==    by 0x500E057: _IO_file_close_it@@GLIBC_2.2.5 (fileops.c:135)
+==2715==    by 0x5000E0E: fclose@@GLIBC_2.2.5 (iofclose.c:53)
+==2715==    by 0x109CA7: main (in /home/ryder/fyp/quantum/server)
+==2715==  Address 0x582c210 is 0 bytes inside a block of size 4,096 alloc'd
+==2715==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2715==    by 0x5000C23: _IO_file_doallocate (filedoalloc.c:101)
+==2715==    by 0x500FD5F: _IO_doallocbuf (genops.c:347)
+==2715==    by 0x500EFDF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==2715==    by 0x500D754: _IO_new_file_xsputn (fileops.c:1243)
+==2715==    by 0x500D754: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==2715==    by 0x5002056: fwrite (iofwrite.c:39)
+==2715==    by 0x109B6A: main (in /home/ryder/fyp/quantum/server)
+==2715== 
+==2715== 
+==2715== HEAP SUMMARY:
+==2715==     in use at exit: 0 bytes in 0 blocks
+==2715==   total heap usage: 6,743 allocs, 6,743 frees, 1,877,283 bytes allocated
+==2715== 
+==2715== All heap blocks were freed -- no leaks are possible
+==2715== 
+==2715== Use --track-origins=yes to see where uninitialised values come from
+==2715== For lists of detected and suppressed errors, rerun with: -s
+==2715== ERROR SUMMARY: 1786 errors from 43 contexts (suppressed: 0 from 0)
