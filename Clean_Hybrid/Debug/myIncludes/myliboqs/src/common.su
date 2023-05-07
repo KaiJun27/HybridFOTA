@@ -1,0 +1,10 @@
+../myIncludes/myliboqs/src/common.c:179:13:set_available_cpu_extensions	4	static
+../myIncludes/myliboqs/src/common.c:183:13:OQS_CPU_has_extension	16	static
+../myIncludes/myliboqs/src/common.c:197:14:OQS_init	8	static
+../myIncludes/myliboqs/src/common.c:204:21:OQS_version	4	static
+../myIncludes/myliboqs/src/common.c:208:13:OQS_MEM_secure_bcmp	32	static
+../myIncludes/myliboqs/src/common.c:220:14:OQS_MEM_cleanse	16	static
+../myIncludes/myliboqs/src/common.c:236:14:OQS_MEM_secure_free	16	static
+../myIncludes/myliboqs/src/common.c:243:14:OQS_MEM_insecure_free	16	static
+../myIncludes/myliboqs/src/common.c:247:7:OQS_MEM_aligned_alloc	32	static
+../myIncludes/myliboqs/src/common.c:309:6:OQS_MEM_aligned_free	24	static

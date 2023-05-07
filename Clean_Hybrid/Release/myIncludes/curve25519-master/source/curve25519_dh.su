@@ -1,0 +1,7 @@
+../myIncludes/curve25519-master/source/curve25519_dh.c:40:6:ecp_MontDouble	88	static
+../myIncludes/curve25519-master/source/curve25519_dh.c:57:6:ecp_Mont	184	static
+../myIncludes/curve25519-master/source/curve25519_dh.c:94:6:ecp_PointMultiply	200	static
+../myIncludes/curve25519-master/source/curve25519_dh.c:162:6:x25519_BasePointMultiply	168	static
+../myIncludes/curve25519-master/source/curve25519_dh.c:182:6:curve25519_dh_CalculatePublicKey_fast	16	static
+../myIncludes/curve25519-master/source/curve25519_dh.c:192:6:curve25519_dh_CalculatePublicKey	16	static
+../myIncludes/curve25519-master/source/curve25519_dh.c:201:6:curve25519_dh_CreateSharedKey	16	static

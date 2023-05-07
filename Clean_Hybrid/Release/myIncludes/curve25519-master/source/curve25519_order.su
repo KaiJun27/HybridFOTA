@@ -1,0 +1,5 @@
+../myIncludes/curve25519-master/source/curve25519_order.c:80:6:eco_ReduceHiWord	56	static
+../myIncludes/curve25519-master/source/curve25519_order.c:110:6:eco_MulReduce	72	static
+../myIncludes/curve25519-master/source/curve25519_order.c:125:6:eco_Mod	16	static
+../myIncludes/curve25519-master/source/curve25519_order.c:132:6:eco_AddReduce	8	static
+../myIncludes/curve25519-master/source/curve25519_order.c:139:6:eco_DigestToWords	80	static

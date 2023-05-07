@@ -1,0 +1,4 @@
+../myIncludes/curve25519-master/source/sha512.c:50:6:SHA512_Init	0	static
+../myIncludes/curve25519-master/source/sha512.c:226:6:SHA512_Transform	296	static
+../myIncludes/curve25519-master/source/sha512.c:67:6:SHA512_Final	16	static
+../myIncludes/curve25519-master/source/sha512.c:118:6:SHA512_Update	32	static

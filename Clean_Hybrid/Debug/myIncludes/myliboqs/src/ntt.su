@@ -1,0 +1,2 @@
+../myIncludes/myliboqs/src/ntt.c:49:6:pqcrystals_dilithium5_ref_ntt	64	static
+../myIncludes/myliboqs/src/ntt.c:77:6:pqcrystals_dilithium5_ref_invntt_tomont	104	static

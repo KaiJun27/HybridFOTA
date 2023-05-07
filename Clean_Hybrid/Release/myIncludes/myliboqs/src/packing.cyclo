@@ -1,0 +1,6 @@
+packing.c:15:6:pqcrystals_dilithium5_ref_pack_pk	3
+packing.c:38:6:pqcrystals_dilithium5_ref_unpack_pk	3
+packing.c:65:6:pqcrystals_dilithium5_ref_pack_sk	7
+packing.c:112:6:pqcrystals_dilithium5_ref_unpack_sk	7
+packing.c:156:6:pqcrystals_dilithium5_ref_pack_sig	6
+packing.c:198:5:pqcrystals_dilithium5_ref_unpack_sig	11

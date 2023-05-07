@@ -1,0 +1,10 @@
+ed25519_verify.c:66:6:ed25519_CalculateX	4
+ed25519_verify.c:102:6:ed25519_UnpackPoint	1
+ed25519_verify.c:108:6:ecp_SrqMulReduce	2
+ed25519_verify.c:116:6:ecp_ModExp2523	1
+ed25519_verify.c:142:6:edp_AddPoint	1
+ed25519_verify.c:163:5:ed25519_VerifySignature	1
+ed25519_verify.c:179:8:ed25519_Verify_Init	6
+ed25519_verify.c:234:6:ed25519_Verify_Finish	1
+ed25519_verify.c:243:13:edp_PolyPointMultiply	3
+ed25519_verify.c:287:5:ed25519_Verify_Check	1

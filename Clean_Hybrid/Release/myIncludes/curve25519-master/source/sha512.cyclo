@@ -1,0 +1,4 @@
+sha512.c:50:6:SHA512_Init	1
+sha512.c:226:6:SHA512_Transform	2
+sha512.c:67:6:SHA512_Final	4
+sha512.c:118:6:SHA512_Update	8

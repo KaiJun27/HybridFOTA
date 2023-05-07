@@ -1,0 +1,5 @@
+curve25519_order.c:80:6:eco_ReduceHiWord	1
+curve25519_order.c:110:6:eco_MulReduce	1
+curve25519_order.c:125:6:eco_Mod	1
+curve25519_order.c:132:6:eco_AddReduce	1
+curve25519_order.c:139:6:eco_DigestToWords	1

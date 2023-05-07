@@ -1,0 +1,10 @@
+../myIncludes/curve25519-master/source/ed25519_sign.c:71:6:edp_AddBasePoint	176	static
+../myIncludes/curve25519-master/source/ed25519_sign.c:97:6:edp_AddAffinePoint	176	static
+../myIncludes/curve25519-master/source/ed25519_sign.c:122:6:edp_DoublePoint	176	static
+../myIncludes/curve25519-master/source/ed25519_sign.c:215:6:edp_BasePointMult	64	static
+../myIncludes/curve25519-master/source/ed25519_sign.c:246:6:edp_BasePointMultiply	184	static
+../myIncludes/curve25519-master/source/ed25519_sign.c:270:6:edp_ExtPoint2PE	16	static
+../myIncludes/curve25519-master/source/ed25519_sign.c:289:7:ed25519_Blinding_Init	472	static
+../myIncludes/curve25519-master/source/ed25519_sign.c:333:6:ed25519_Blinding_Finish	16	static
+../myIncludes/curve25519-master/source/ed25519_sign.c:344:6:ed25519_CreateKeyPair	408	static
+../myIncludes/curve25519-master/source/ed25519_sign.c:372:6:ed25519_SignMessage	472	static

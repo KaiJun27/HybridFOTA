@@ -1,0 +1,5 @@
+../myIncludes/myliboqs/src/sign.c:23:5:pqcrystals_dilithium5_ref_keypair	96464	static
+../myIncludes/myliboqs/src/sign.c:80:5:pqcrystals_dilithium5_ref_signature	121120	static
+../myIncludes/myliboqs/src/sign.c:198:5:pqcrystals_dilithium5_ref	24	static
+../myIncludes/myliboqs/src/sign.c:226:5:pqcrystals_dilithium5_ref_verify	91336	static
+../myIncludes/myliboqs/src/sign.c:309:5:pqcrystals_dilithium5_ref_open	32	static

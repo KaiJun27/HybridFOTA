@@ -1,0 +1,4 @@
+reduce.c:15:9:pqcrystals_dilithium5_ref_montgomery_reduce	1
+reduce.c:33:9:pqcrystals_dilithium5_ref_reduce32	1
+reduce.c:50:9:pqcrystals_dilithium5_ref_caddq	1
+reduce.c:65:9:pqcrystals_dilithium5_ref_freeze	1

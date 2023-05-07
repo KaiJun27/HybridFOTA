@@ -1,0 +1,5 @@
+sign.c:23:5:pqcrystals_dilithium5_ref_keypair	1
+sign.c:80:5:pqcrystals_dilithium5_ref_signature	5
+sign.c:198:5:pqcrystals_dilithium5_ref	2
+sign.c:226:5:pqcrystals_dilithium5_ref_verify	6
+sign.c:309:5:pqcrystals_dilithium5_ref_open	5

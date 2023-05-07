@@ -1,0 +1,10 @@
+ed25519_sign.c:71:6:edp_AddBasePoint	1
+ed25519_sign.c:97:6:edp_AddAffinePoint	1
+ed25519_sign.c:122:6:edp_DoublePoint	1
+ed25519_sign.c:215:6:edp_BasePointMult	2
+ed25519_sign.c:246:6:edp_BasePointMultiply	2
+ed25519_sign.c:270:6:edp_ExtPoint2PE	1
+ed25519_sign.c:289:7:ed25519_Blinding_Init	3
+ed25519_sign.c:333:6:ed25519_Blinding_Finish	2
+ed25519_sign.c:344:6:ed25519_CreateKeyPair	3
+ed25519_sign.c:372:6:ed25519_SignMessage	1

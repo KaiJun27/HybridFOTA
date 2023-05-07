@@ -1,0 +1,8 @@
+../myIncludes/curve25519-master/source/curve25519_utils.c:28:6:ecp_TrimSecretKey	0	static
+../myIncludes/curve25519-master/source/curve25519_utils.c:35:5:ecp_ReverseByteOrder	8	static
+../myIncludes/curve25519-master/source/curve25519_utils.c:43:6:ecp_BytesToWords	12	static
+../myIncludes/curve25519-master/source/curve25519_utils.c:61:5:ecp_WordsToBytes	12	static
+../myIncludes/curve25519-master/source/curve25519_utils.c:77:5:ecp_EncodeInt	20	static
+../myIncludes/curve25519-master/source/curve25519_utils.c:100:4:ecp_DecodeInt	16	static
+../myIncludes/curve25519-master/source/curve25519_utils.c:125:6:ecp_4Folds	20	static
+../myIncludes/curve25519-master/source/curve25519_utils.c:144:6:ecp_8Folds	12	static

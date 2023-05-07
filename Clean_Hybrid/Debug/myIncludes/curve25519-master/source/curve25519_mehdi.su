@@ -1,0 +1,17 @@
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:61:6:ecp_SetValue	16	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:68:6:ecp_Copy	16	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:73:5:ecp_CmpNE	16	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:79:5:ecp_CmpLT	48	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:103:5:ecp_Add	336	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:119:5:ecp_Sub	336	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:134:6:ecp_AddReduce	416	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:161:6:ecp_SubReduce	424	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:185:6:ecp_Mod	56	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:212:13:ecp_mul_set	336	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:228:13:ecp_mul_add	464	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:243:6:ecp_WordMulAddReduce	896	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:278:6:ecp_MulReduce	88	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:297:6:ecp_Mul	24	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:310:6:ecp_SqrReduce	80	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:332:6:ecp_MulMod	24	static
+../myIncludes/curve25519-master/source/curve25519_mehdi.c:340:6:ecp_Inverse	344	static

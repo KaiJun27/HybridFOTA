@@ -1,0 +1,16 @@
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:74:6:KeccakP1600times4_StaticInitialize	0	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:79:6:KeccakP1600times4_InitializeAll	8	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:91:6:KeccakP1600times4_AddByte	4	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:100:6:KeccakP1600times4_AddBytes	8	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:109:6:KeccakP1600times4_AddLanesAll	24	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:123:6:KeccakP1600times4_OverwriteBytes	8	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:132:6:KeccakP1600times4_OverwriteLanesAll	24	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:146:6:KeccakP1600times4_OverwriteWithZeroes	0	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:155:6:KeccakP1600times4_PermuteAll_24rounds	8	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:169:6:KeccakP1600times4_PermuteAll_12rounds	8	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:184:6:KeccakP1600times4_PermuteAll_6rounds	16	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:199:6:KeccakP1600times4_PermuteAll_4rounds	16	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:213:6:KeccakP1600times4_ExtractBytes	8	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:222:6:KeccakP1600times4_ExtractLanesAll	24	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:236:6:KeccakP1600times4_ExtractAndAddBytes	8	static
+../myIncludes/myliboqs/common/sha3/xkcp_low/KeccakP-1600times4/serial/PlSnP-Fallback.inc:245:6:KeccakP1600times4_ExtractAndAddLanesAll	40	static
